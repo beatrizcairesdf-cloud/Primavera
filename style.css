@@ -1,0 +1,415 @@
+.Banner_maior{
+    display: block;
+
+
+
+}
+
+
+
+.header_card_one{
+   
+    width: 100%;
+    height: 120px;
+    display: block;
+    background-image: url(/imagens/banner.planta.jpg);
+    filter: blur(50%);
+    justify-content: center;
+    filter: saturate(100%);
+}
+.Título_principal{
+    
+    margin-top: 50px;
+    position:relative;
+    white-space: nowrap;
+    font-size: 24px;
+    color: rgb(7, 61, 21);
+    justify-content: center;
+    text-align: center;
+   
+  
+}
+.texto_principal{
+font-size: 20px;
+justify-content: center;
+margin-top: 35px;
+text-align:center;
+
+
+}
+     
+
+
+
+
+.calendario{
+
+  margin-top: 100px;
+  background-color: rgb(250, 235, 215);
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto_calendário{
+
+ font-size: 20px;
+ justify-content: center;
+ padding-top: 2px 0 0% 0;
+ text-align: center;
+ justify-content: center;
+ display: flex;
+
+}
+.cards_eventos{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 50px;
+
+
+}
+ .card_datas .primeira_data{  
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+ 
+    
+
+    font-size: 40px;
+    justify-content: center;
+    color:rgb(121, 64, 64); 
+    align-items: center;
+
+    
+
+}
+ 
+
+.show{
+    font-size: 20px;
+    color: black;
+    margin-top: -70px;
+   
+
+
+}
+
+.card_datas_2 .segunda_data{
+
+    font-size: 40px;
+    justify-content: center;
+    color:rgb(121, 64, 64);  
+    align-items: center;
+    
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.Concerto{
+
+ font-size: 20px;
+ color: black;
+ margin-top: -70px;
+  
+
+}
+
+.card_datas_3 .terceira_data {
+
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:rgb(123, 65, 65);  
+    
+
+ background-color: rgb(255, 255, 255);
+ width: 150px;
+ height: 150px;
+ box-shadow: 2px;
+ border-radius: 10px;
+ margin-top: 5px;
+ display: flex;
+}
+
+.palestra {
+
+ font-size: 20px;
+ color: black;
+ margin-top: -70px;
+  
+}
+
+
+.card_datas_4 .quarta_data{
+
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:rgb(121, 64, 64); 
+ 
+    
+
+ background-color: rgb(255, 255, 255);
+ width: 150px;
+ height: 150px;
+ box-shadow: 2px;
+ border-radius: 10px;
+ margin-top: 5px;
+ display: flex;
+}
+
+.teatro{
+
+ font-size: 20px;
+ color: black;
+ margin-top: -70px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card_shows{
+   
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    
+    border-radius: 20px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+.card-body {
+
+   float: right;
+   width: 350px;
+   height: 10px;
+   margin-right: 60px;
+   height: 300px;
+   justify-content:left;
+   align-items: 20px;
+
+
+}
+.card_texto_show{
+
+font-size: 15px;
+width: 400px; 
+text-align: center;
+margin-left: -60px;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+
+
+
+}
+
+.card_title_shows{
+ justify-content: center;
+ margin-left: -60px;
+ align-items: center;
+
+}
+
+
+.imagem_show{
+ float: left;
+ border-radius: 10px;
+ margin-left: 0px;
+ height: 300px;
+ overflow: hidden;
+ filter: brightness(60%);
+ filter: saturate(50%);
+
+}
+.card_palestras{
+
+margin-top: 60px;
+box-shadow: 1px 2px 3px;
+box-sizing: border-box;
+width: 100%;
+height: 300px;
+margin-left: 10px;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background-color: rgb(247, 247, 247);
+}
+.card_title_palestras{
+
+    justify-content: center;
+    margin-left: -60px;
+    align-items: center;
+    
+
+}
+
+.imagem_palestra{
+ float: left;
+ border-radius: 10px;
+ margin-left: 0px;
+ height: 300px;
+ overflow: hidden;
+ filter: brightness(90%);
+ 
+}
+
+.header-card{
+    display: flex;
+    max-width: 100%;
+    box-shadow: 0 8px 20px;
+    justify-content: space-between;
+    padding: 0 15%;
+    margin-top: 100%;
+}
+.card_teatro{
+    margin-top: 60px;
+    box-shadow: 1px 2px 3px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+}
+.imagem_teatro{
+    float: left;
+    border-radius: 10px;
+    margin-left: 0px;
+    height: 300px;
+    overflow: hidden;
+    filter: brightness(90%);
+    
+}
+.card_title_teatro{
+
+    justify-content: center;
+    margin-left: -60px;
+    align-items: center;
+}
+
+.card_festival{
+    margin-top: 60px;
+    box-shadow: 1px 2px 3px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+}
+.imagem_festival{
+    float: left;
+    border-radius: 10px;
+    margin-left: 0px;
+    height: 300px;
+    overflow: hidden;
+    filter: brightness(90%);
+}
+.card_title_festival{
+    justify-content: center;
+    margin-left: -60px;
+    align-items: center;
+}
+
+.card_feira{
+    margin-top: 60px;
+    box-shadow: 1px 2px 3px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+}
+.imagem_feira{
+    float: left;
+    border-radius: 10px;
+    margin-left: 0px;
+    height: 300px;
+    overflow: hidden;
+    filter: brightness(90%);
+}
+.card_title_feira{
+    justify-content: center;
+    margin-left: -60px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+body,h1 {
+    background-attachment: fixed;
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+}
+.Banner_menor {
+    background-color:rgba(195, 236, 195, 0.613);
+   display: block;
+   margin-bottom: 0px;
+   margin-top: -1300px;
+
+}
+
+main{
+    margin-left: 15%; 
+    margin-right: 15%;
+    text-align: center;
+}
